@@ -7,10 +7,22 @@ public class Dragon {
     private int y;
     private int direction;
 
+    public Dragon() {
+        this.x = 0;
+        this.y = 0;
+        this.direction = 1;
+    }
+
     public Dragon(int x, int y, int direction) {
         this.x = x;
         this.y = y;
-        this.direction = direction;
+
+        if (direction >= 1 && direction <= 4) {
+            this.direction = direction;
+        } else {
+            System.out.println("Arah awal (" + direction + ") tidak valid! Default diatur ke 1 (Atas).");
+            this.direction = 1;
+        }
     }
 
     public void changeDirection(int value) {
