@@ -1,6 +1,6 @@
 package belajar;
 
-public class NestedLoopHourglass {
+public class NestedLoopError {
     public static void main(String[] args) {
         int baris = 5;
 
