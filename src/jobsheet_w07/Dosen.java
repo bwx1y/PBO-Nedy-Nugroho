@@ -3,12 +3,9 @@ package jobsheet_w07;
 public class Dosen extends Pegawai {
     public String nidn;
 
-    public Dosen() {
-        System.out.println("Ini constructor class Dosen");
-    }
-
     public Dosen(String nip, String nama, double gaji, String nidn) {
-        System.out.println("Ini constructor class Dosen yang berparameter");
+        super(nip, nama, gaji);
+        this.nidn = nidn;
     }
 
     @Override
