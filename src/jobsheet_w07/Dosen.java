@@ -4,7 +4,11 @@ public class Dosen extends Pegawai {
     public String nidn;
 
     public Dosen() {
-        System.out.println("Object dari class Dosen dibuat");
+        System.out.println("Ini constructor class Dosen");
+    }
+
+    public Dosen(String nip, String nama, double gaji, String nidn) {
+        System.out.println("Ini constructor class Dosen yang berparameter");
     }
 
     @Override
