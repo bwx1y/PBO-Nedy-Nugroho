@@ -1,4 +1,4 @@
-package jobsheet_w07;
+package jobsheet_w08.tugas;
 
 public class Car extends Vehicle {
     private final int doorCount;
@@ -42,7 +42,6 @@ public class Car extends Vehicle {
 
     @Override
     public void service() {
-        super.service();
         System.out.println("recovery ac");
     }
 }

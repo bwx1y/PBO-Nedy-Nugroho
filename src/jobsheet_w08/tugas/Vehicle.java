@@ -1,6 +1,6 @@
-package jobsheet_w07;
+package jobsheet_w08.tugas;
 
-public class Vehicle {
+public abstract class Vehicle {
     private final String fuel;
     private final int wheelCount;
     private final int engineCapacity;
@@ -23,7 +23,5 @@ public class Vehicle {
         return engineCapacity;
     }
 
-    public void service() {
-        System.out.println("Engine recovery");
-    }
+    abstract void service();
 }

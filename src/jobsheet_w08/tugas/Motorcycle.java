@@ -1,4 +1,4 @@
-package jobsheet_w07;
+package jobsheet_w08.tugas;
 
 public class Motorcycle extends Vehicle {
     private final String typeClutch;
@@ -24,7 +24,6 @@ public class Motorcycle extends Vehicle {
 
     @Override
     public void service() {
-        super.service();
         System.out.println("recovery ");
     }
 }
